@@ -1,4 +1,4 @@
-# Saga orchestration in kotlin with spring boot
+# Saga choreography in kotlin with spring boot
 * https://microservices.io/patterns/data/saga.html
 
 # TODO 
@@ -8,7 +8,7 @@
 - Write system an unit tests.
 
 # Webshop use case
-An e-commerce application with 3 microservices:
+An e-commerce application with 2 microservices:
 * order-microservice
 * payment-microservice
 
@@ -28,7 +28,7 @@ Order sequence, the saga:
 * Navigate to *./infrastructure/kafka-only-docker-compose* directory
 * `docker-compose up`
 ### Start the microservices
-* This are 3 spring boot microservices written in kafka
+* This are 2 spring boot microservices written in kafka
 * Start `com.oriaxx77.micoserviceplay.order.OrderMicroservice`
 * Start `com.oriaxx77.micoserviceplay.payment.PaymentMicroservice`
 
