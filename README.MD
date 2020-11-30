@@ -11,7 +11,6 @@
 An e-commerce application with 3 microservices:
 * order-microservice
 * payment-microservice
-* shipping-microservice
 
 Order sequence, the saga:
 1. **order-microservice**: creates the order. It is the saga orchestrator.
